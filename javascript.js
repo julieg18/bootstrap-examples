@@ -40,8 +40,8 @@ function placeFragmentsOnR1D3() {
   document.getElementById("r1d3-example").innerHTML = fragments.r1D3;
 };
 
-function placeOriginalFragmentsOnR2D1() {
-  document.getElementById("r2d1-example").innerHTML = originalFragments.r2D1;
+function placeOriginalFragmentsOnR1D3() {
+  document.getElementById("r1d3-example").innerHTML = originalFragments.r1D3;
 };
 
 
