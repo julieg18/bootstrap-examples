@@ -36,6 +36,12 @@ function placeOriginalFragmentsOnR1D2() {
   document.getElementById("r1d2-example").innerHTML = originalFragments.r1D2;
 };
 
-//I added some stuff to the test branch
+function placeFragmentsOnR1D3() {
+  document.getElementById("r1d3-example").innerHTML = fragments.r1D3;
+};
+
+function placeOriginalFragmentsOnR2D1() {
+  document.getElementById("r2d1-example").innerHTML = originalFragments.r2D1;
+};
 
 
