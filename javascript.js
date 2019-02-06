@@ -21,10 +21,18 @@ const originalFragments = {
 };
 
 function placeFragmentsOnR1D1() {
-    document.getElementById("r1d1-example").innerHTML = fragments.r1D1;
+  document.getElementById("r1d1-example").innerHTML = fragments.r1D1;
 };
 
 function placeOriginalFragmentsOnR1D1() {
   document.getElementById("r1d1-example").innerHTML = originalFragments.r1D1;
+};
+
+function placeFragmentsOnR1D2() {
+  document.getElementById("r1d2-example").innerHTML = fragments.r1D2;
+};
+
+function placeOriginalFragmentsOnR1D2() {
+  document.getElementById("r1d2-example").innerHTML = originalFragments.r1D2;
 };
 
