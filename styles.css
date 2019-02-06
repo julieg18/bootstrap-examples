@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box
+}
+
+h1 {
+  color: red
+}
+
+.col-sm-3 {
+  border-style: solid;
+}
+
+.col-sm-4 {
+  border-style: solid
+}
+
+

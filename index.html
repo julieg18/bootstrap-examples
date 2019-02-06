@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Testing Bootstrap Features</title>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <h1>Testing Bootstrap Features</h1>
+      <p>
+        Bootstrap comes with many classes that make edited your website incredibly easy. All you need to do is add the name of the class into your HTML tag! I created this website to test different Bootstrap classes. Click the <button>Without Bootstrap Class</button> button to see what the example would look like without any extra Bootstrap classes. These are just some of the many ways you can use Bootstrap on your project. Go to the <a target="_blank" href="https://getbootstrap.com/docs/4.2/getting-started/introduction/">Bootstrap Docs</a> to see more!
+      </p>
+      <div class="row">
+        <div class="col-sm-4" id = "row1div1">
+          <div id="r1d1-example">
+            <p class="h5">
+              This sentence is made with a <code>&lt;p&gt;</code> tag but I can make it look like a <code>&lt;h5&gt;</code> tag by adding a "h5" class.
+            </p>
+          </div>
+          <button onclick="placeFragmentsOnR1D1()">Without Bootstrap Class</button>
+          <button onclick="placeOriginalFragmentsOnR1D1()">With Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row1div2">
+          <h5>
+            I can make a heading with <small class="text-muted">faded secondary text using a "small" tag and a "text-muted" class.</small>
+          </h5>
+          <button>Without Bootstrap Class Class</button>
+          <button>With Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row1div3">
+          <h5 class="display-5">
+            I made this heading stand out with a "display-5" class.
+          </h5>
+          <button>Without Bootstrap Class</button>
+          <button>With Bootstrap</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" id="row2div2">
+          <blockquote class="blockquote">
+            <p>
+              I can make a blockquote by wrapping any HTML with a "blockquote" tag and a "blockquote" class.
+            </p>
+            <footer class="blockquote-footer">
+              I can identify the souce with a footer tag and a "blockquote-footer" class.
+            </footer>
+          </blockquote>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row2div3">
+          Here is some <code>inline code</code> I made. I didn't even have to add any classes! But you can add a .pre-scrollable class to a code block, which will set a max height and a y-axis scrollbar.
+          <pre><code>
+            I'm a code block.
+            I'm still a code block.
+            Yep, definetly a code block.
+          </code></pre>
+          <button>Without Bootstrap Class</button>
+          <button>With Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row2div4">
+          <p>
+            There are many ways to write lists with Bootstrap!
+          </p>
+          <ul class="list-unstyled">
+            <li>You can make a unstyled list with a "list-unstyled" class.</li>
+          </ul>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              You can make an inline list with the classes "list-inline" and "list-inline-item"
+            </li>
+          </ul>
+          <button>Without Bootstrap Class</button>
+          <button>With Bootstrap Class</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4"  id="row3div1">
+          <p>
+            I can make my <abbr title="HyperText Markup Language" class="initialism">HTML</abbr> abbrieviation with a "abbr" tag and a "initialism" class.
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row3div2">
+          <p>
+            This is what a <code>&lt;kbd&gt;</code> tag looks like in Bootstrap: <kbd>Enter</kbd> 
+          </p>
+        </div>
+          <div class="col-sm-4" id="row3div3">
+            <p class="lead">I can make a paragraph stand out by adding a "lead" class.</p>
+            <button>Without Bootstrap Class</button>
+            <button>With Bootstrap Class</button>
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" id="row4div1">
+          <p>
+            Here is a badge I made with a <code>.badge</code> class and a <code>.badge-primary</code> class: <span class="badge badge-primary">Badge</span>
+            Here is a badge I made with a <code>.badge</code> class and a <code>.badge-success</code> class: <span class="badge badge-success">Badge</span>
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row4div2">
+          <p>
+            I can make a badge more round by adding a <code>.badge-pill</code> class along with the other badge classes: <spanclass="badge badge-danger badge-pill">Badge</span>
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row4div3">
+          <p>
+            I can turn a badge into a link by wrapping it in <code>&lt;a&gt;</code> tags instead of <code>&lt;span&gt;</code> tags: <a href="#" class="badge badge-info">Badge</a>
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4" id="row5div1">
+          <p>
+            Like badges, buttons also have predefined styles. Here is a button I made with the classes <code>.btn</code> and <code>.btn-secondary</code>: <button class="btn btn-secondary">Button</button>
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row5div2">
+          <p>
+            I created a outline button with the classes, <code>.btn</code> and <code>.btn-outline-warning</code>: <button class="btn btn-outline-warning">Button</button>
+          </p>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+        <div class="col-sm-4" id="row5div3">
+          You can make small buttons using the <code>.btn-sm</code> class. You can make large buttons using the <code>.btn-lg</code> class. You can make a button that spans the full width of the parent element with the class <code>.btn-block</code>:
+          <button class="btn btn-sm btn-light">Small</button>
+          <button class="btn btn-lg btn-dark">Large</button>
+          <button class="btn btn-block btn-primary">Block level</button>
+          <button>With Bootstrap Class</button>
+          <button>Without Bootstrap Class</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>  
+  </body>
+</html>
