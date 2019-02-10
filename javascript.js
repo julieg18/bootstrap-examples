@@ -4,7 +4,7 @@ const fragments = {
   r1D3: '<h5>I can give this heading, or in fact any element, a black border with the classes, <code>.border</code> and <code>.border-dark</code>.</h5>',
   r2D1: '<blockquote><p>I can make a blockquote by wrapping any HTML with a <code>&lt;blockquote&gt;</code> tag and a <code>.blockquote</code> class.</p><footer>I can identify the source with a <code>&lt;footer&gt;</code> tag and a <code>blockquote</code> class.</footer></blockquote>',
   r2D2: '<p>I can change the color of the text and have different background colors with Bootstrap classes.</p><p>I can make this text red with the <code>.text-danger</code> class.</p><p>I can make the background color of the text red with the <code>.bg-danger</code> class.</p>',
-  r2D3: '<p>There are many ways to write lists with Bootstrap!</p><ul><li>You can make a unstyled list with a <code>.list-unstyled</code> class.</li></ul><ul><li>You can make an inline list with the classes <code>.list-inline</code> and <code>.list-inline-item</code>.</li></ul>',
+  r2D3: '<p>I can make a <code>&lt;p&gt;</code> tag all uppercase with the class <code>.text-uppercase</code>.<p>i was written with lowercase letters.</p><p>I can capitalize a <code>&lt;p&gt;</code> tag by adding the class <code>.text-capitalize</code>: </p><p>i am written in lowercase.</p>',
   r3D1: '<p>I can make my <abbr title="HyperText Markup Language">HTML</abbr> abbrieviation with <code>&lt;abbr&gt;</code> tags and a <code>.initialism</code> class.</p>',
   r3D2: '<p>I can change the way <code>&lt;p&gt;</code> tags look just by adding Bootstrap classes:</p><p>I made this text bold by adding a <code>.font-weight-bold</code> class.</p><p>I made this text with the class <code>.text-monospace</code></p><p>I made this text italic with the <code>.font-italic</code> class.</p>',
   r3D3: '<p>I can make a paragraph stand out by adding a <code>.lead</code> class.</p>',
@@ -22,7 +22,7 @@ const originalFragments = {
   r1D3: '<h5 class="border border-dark">I can give this heading, or in fact any element, a black border with the classes, <code>.border</code> and <code>.border-dark</code>.</h5>',
   r2D1: '<blockquote class="blockquote"><p>I can make a blockquote by wrapping any HTML with a <code>&lt;blockquote&gt;</code> tag and a <code>.blockquote</code> class.</p><footer class="blockquote-footer">I can identify the source with a <code>&lt;footer&gt;</code> tag and a <code>blockquote</code> class.</footer></blockquote>',
   r2D2: '<p>I can change the color of the text and have different background colors with Bootstrap classes.</p><p class="text-danger">I can make this text red with the <code>.text-danger</code> class.</p><p class="bg-danger">I can make the background color of the text red with the <code>.bg-danger</code> class.</p>',
-  r2D3: '<p>There are many ways to write lists with Bootstrap!</p><ul class="list-unstyled"><li>You can make a unstyled list with a <code>.list-unstyled</code> class.</li></ul><ul class="list-inline"><li class="list-inline-item">You can make an inline list with the classes <code>.list-inline</code> and <code>.list-inline-item</code>.</li></ul>',
+  r2D3: '<p>I can make a <code>&lt;p&gt;</code> tag all uppercase with the class <code>.text-uppercase</code>.<p class="text-uppercase">i was written with lowercase letters.</p><p>I can capitalize a <code>&lt;p&gt;</code> tag by adding the class <code>.text-capitalize</code>: </p><p class="text-capitalize">i am written in lowercase.</p>',
   r3D1: '<p>I can make my <abbr title="HyperText Markup Language" class="initialism">HTML</abbr> abbrieviation with <code>&lt;abbr&gt;</code> tags and a <code>.initialism</code> class.</p>',
   r3D2: '<p>I can change the way <code>&lt;p&gt;</code> tags look just by adding Bootstrap classes:</p><p class="font-weight-bold">I made this text bold by adding a <code>.font-weight-bold</code> class.</p><p class="text-monospace">I made this text with the class <code>.text-monospace</code></p><p class="font-italic">I made this text italic with the <code>.font-italic</code> class.</p>',
   r3D3: '<p class="lead">I can make a paragraph stand out by adding a <code>.lead</code> class.</p>',
@@ -75,7 +75,7 @@ function placeOriginalFragmentsOnR2D2() {
 }
 
 function placeFragmentsOnR2D3() {
-  document.getElementById("r1d3-example").innerHTML = fragments.r2D3;
+  document.getElementById("r2d3-example").innerHTML = fragments.r2D3;
 };
 
 function placeOriginalFragmentsOnR2D3() {
