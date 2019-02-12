@@ -3,15 +3,16 @@ html {
 }
 
 h1 {
-  color: red
-}
-
-.col-sm-3 {
-  border-style: solid;
+  text-align: center;
 }
 
 .col-sm-4 {
-  border-style: solid
+  border: thin solid black;
+  padding: 1.5%;
+  
 }
 
+.with-and-without-btns {
 
+  
+}
